@@ -7,9 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.example.a360floatwindowdemo.FloatWindowService;
-import com.example.a360floatwindowdemo.R;
-
 public class FloatWindowBigView extends LinearLayout {
 
     // 记录大悬浮窗的宽度
@@ -25,7 +22,7 @@ public class FloatWindowBigView extends LinearLayout {
         viewWidth = view.getLayoutParams().width;
         viewHeight = view.getLayoutParams().height;
         Button close = (Button) findViewById(R.id.close);
-        Button back = (Button) findViewById(R.id.back);
+        Button back = (Button) findViewById(R.id.back_button_my);
         close.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
