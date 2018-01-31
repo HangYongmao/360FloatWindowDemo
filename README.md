@@ -1,0 +1,2 @@
+# 360FloatWindowDemo
+Android桌面悬浮窗效果实现，仿360手机卫士悬浮窗效果
